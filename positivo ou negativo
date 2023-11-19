@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void pon(int a){
+	if (a>0){
+		cout<<"1";
+	}else{
+		if(a==0){
+			cout<<"0";
+		}else{
+			cout<<"-1";
+		}	
+	} 		
+}
+int main (){
+	int a; 
+	cin>>a;
+	pon(a);
+}
