@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+void data(int d, int m, int a){
+  switch(m){
+  case 1:
+    cout<<d<<" de janeiro de "<<a;
+    break;
+  case 2:
+    cout<<d<<" de fevereiro de "<<a;
+    break;
+  case 3:
+    cout<<d<<" de março de "<<a;
+    break;
+  case 4:
+    cout<<d<<" de abril de "<<a;
+    break;
+  case 5:
+    cout<<d<<" de maio de "<<a;
+    break;
+  case 6:
+    cout<<d<<" de junho de "<<a;
+    break;
+  case 7:
+    cout<<d<<" de julho de "<<a;
+    break;
+  case 8:
+    cout<<d<<" de agosto de "<<a;
+    break;
+  case 9:
+    cout<<d<<" de setembro de "<<a;
+    break;
+  case 10:
+    cout<<d<<" de outubro de "<<a;
+    break;
+  case 11:
+    cout<<d<<" de novembro de "<<a;
+    break;
+  case 12:
+    cout<<d<<" de dezembro de "<<a;
+    break;
+  }
+
+}
+int main (){
+  int d, m, a;
+  cin>>d>>m>>a;
+  data(d, m, a);
+
+  return 0;
+}
