@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+void f(int h, int m, int s){
+	int t;
+	h = h*3600;
+	m = m*60;
+	t = h+m+s;
+	cout<<t;
+}
+int main(){
+	int h, m, s;
+	cin>>h>>m>>s;
+	f(h, m, s);
+	return 0;
+}
