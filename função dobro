@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+void dobro(int &a){
+cout<<a*2;
+}
+int main (){
+int a;
+cin>>a;
+  dobro(a);
+
+
+  
+}
