@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+void vc(int r){
+  double volume = (4.0/3.0)*3.14*pow(r,3);
+  //double serve para armazenar numeros com ponto flutuante e é mais preciso que o float 
+  //descobri esse comondo pelo Replit 8) 
+  cout << volume;
+}
+int main(){
+  int r;
+  cin >> r;
+  vc(r);
+  return 0;
+}
